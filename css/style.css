@@ -1,3 +1,41 @@
 body {
   background-color: lavender;
+  margin: 0;
+}
+
+header {
+  font-family: sans-serif;
+  background-color: mediumpurple;
+  color: white;
+  padding: 15px;
+  margin: 0;
+  border-bottom: white 2px solid;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  background-color: mediumpurple;
+ 
+}
+
+li {
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  border-left: white 1px solid;
+  margin: 0;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover, a.active {
+  text-decoration: underline;
+  color: black;
 }
