@@ -3,7 +3,11 @@ body {
   margin: 0;
 }
 
-header {
+html {
+  margin: 0;
+}
+
+h1 {
   font-family: sans-serif;
   background-color: mediumpurple;
   color: white;
@@ -17,7 +21,7 @@ ul {
   list-style-type: none;
   justify-content: flex-end;
   background-color: mediumpurple;
- 
+  margin: 0;
 }
 
 li {
@@ -27,6 +31,10 @@ li {
   display: flex;
   color: white;
   border-left: white 1px solid;
+  margin: 0;
+}
+
+nav {
   margin: 0;
 }
 
