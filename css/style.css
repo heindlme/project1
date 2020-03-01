@@ -47,3 +47,7 @@ a:hover, a.active {
   text-decoration: underline;
   color: black;
 }
+
+.active-page {
+  background-color: indigo;
+}
