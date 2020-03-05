@@ -33,6 +33,7 @@ nav li {
   color: white;
   border-left: white 1px solid;
   margin: 0;
+  white-space: nowrap;
 }
 
 nav {
