@@ -54,29 +54,6 @@ a:hover, a.active {
   background-color: indigo;
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-}
-
-.pic {
-  width: 40%;
-  margin-right: 10px;
-}
-
-.board {
-  margin-left: 10px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  font-size: large;
-  justify-content: center;
-}
-
-.title {
-  flex-grow: 1;
-}
-
 .main_img {
   display: flex;
   justify-content: center;
@@ -133,14 +110,17 @@ a:hover, a.active {
 
   nav > ul {
     flex-direction: column;
+    padding: 0;
+    margin: 0;
   }
 
   nav > ul > li {
     border-top: 1px solid white;
+    border-left: none;
   }
 
   nav > ul > li:active, .active {
-    background-color: rebeccapurple;
+    background-color: indigo;
   }
   
 }
