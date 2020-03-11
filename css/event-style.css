@@ -1,0 +1,66 @@
+h3 {
+ margin: 10px;
+ display: flex;
+ justify-content: center;
+}
+
+main > ul {
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+main > ul > li {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#feb12 {
+  background-color: lightblue;
+}
+
+#feb26 {
+  background-color: lightpink;
+}
+
+#mar11 {
+  background-color: green;
+}
+
+#apr1 {
+  background-color: orange;
+}
+
+#apr29 {
+  background-color: limegreen;
+}
+
+#may13 {
+  background-color: firebrick;
+}
+
+@media (max-width: 900px) {
+  main > ul > li {
+    width: 40%;
+  }
+}
+
+@media (max-width: 650px) {
+  main > ul > li {
+    width: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  main > ul > li {
+    width: 100%;
+  }
+}

@@ -1,31 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial scale=1">
     <title>Events</title>
     <link rel=stylesheet href="css/style.css">
+    <link rel=stylesheet href="css/event-style.css">
   </head>
   <body>
     <header>
       <h1>OMTech</h1>
-    </header>
-    <nav>
+      <div id="menu-button">
+        <svg viewBox="0 0 100 80" width="30" height="30">
+          <rect fill="white" width="100" height="15"></rect>
+          <rect fill="white" y="30" width="100" height="15"></rect>
+          <rect fill="white" y="60" width="100" height="15"></rect>
+        </svg>
+      </div>
+      <nav id="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="board.html">Board</a></li>
+          <li><a href="history.html">History</a></li>
+          <li class="active-page"><a href="events.html">Events</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav> 
+    </header> 
+    <main>
+      <h3>Current Events</h3>
       <ul>
-        <li><a href="index.html">Home</li>
-        <li><a href="about-us.html">About Us</a></li>
-        <li><a href="board.html">Board</a></li>
-        <li><a href="history.html">History</a></li>
-        <li class="active-page"><a href="events.html">Events</a></li>
-        <li><a href="contact-us.html">Contact Us</a></li>
+        <li id="feb12">February 12<sup>th</sup>: Introduction to the Club</li>
+        <li id="feb26">February 26<sup>th</sup>: Pancakes and a Movie</li>
+        <li id="mar11">March 11<sup>th</sup>: St. Patricks Day and Pi</li>
+        <li id="apr1">April 1<sup>st</sup>: Escape Room</li>
+        <li id="apr29">April 29<sup>th</sup>: Outdoor Fun Time</li>
+        <li id="may13">May 13<sup>th</sup>: Homework Help Night</li>
       </ul>
-    </nav> 
-    <h3>Current Events</h3>
-    <p>February 12<sup>th</sup>: Introduction to the Club</p>
-    <p>February 26<sup>th</sup>: Pancakes and a Movie</p>
-    <p>March 11<sup>th</sup>: St. Patricks Day and Pi</p>
-    <p>April 1<sup>st</sup>: Escape Room</p>
-    <p>April 29<sup>th</sup>: Outdoor Fun Time</p>
-    <p>May 13<sup>th</sup>: Homework Help Night</p>
+    </main>
+    <script src="js/script.js"></script>
   </body>
 </html>

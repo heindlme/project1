@@ -1,27 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial scale=1">
     <title>History</title>
     <link rel=stylesheet href="css/style.css">
+    <link rel=stylesheet href="css/history-style.css">
   </head>
   <body>
     <header>
       <h1>OMTech</h1>
+      <div id="menu-button">
+        <svg viewBox="0 0 100 80" width="30" height="30">
+          <rect fill="white" width="100" height="15"></rect>
+          <rect fill="white" y="30" width="100" height="15"></rect>
+          <rect fill="white" y="60" width="100" height="15"></rect>
+        </svg>
+      </div>
+      <nav id="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="board.html">Board</a></li>
+          <li class="active-page"><a href="history.html">History</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav> 
     </header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</li>
-        <li><a href="about-us.html">About Us</a></li>
-        <li><a href="board.html">Board</a></li>
-        <li class="active-page"><a href="history.html">History</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="contact-us.html">Contact Us</a></li>
-      </ul>
-    </nav> 
-    <p>
-      Our former name is Women in Information Technological Systems. We changed our name to be more inclusive to everyone.
-    </p>
+  
+    <main>
+      <p>
+        Our former name is Women in Information Technological Systems. We changed our name to be more inclusive to everyone.
+      </p>
+      <p>
+        Events from Fall 2019:
+        <ul>
+          <li>September 18<sup>th</sup>: Grill Out</li>
+          <li>October 2<sup>nd</sup>: Movie Night</li>
+          <li>October 16<sup>th</sup>: Homework Help Night and Coloring</li>
+          <li>October 30<sup>th</sup>: Pumpkin Carving</li>
+          <li>November 13<sup>th</sup>: Game Night</li>
+          <li>December 11<sup>th</sup>: Homework Help Night and Holiday Cards</li>
+        </ul>
+      </p>
+      <p>
+        Companies that we have toured recently:
+        <ul>
+          <li>Jamf</li>
+          <li>Mayo Clinic</li>
+        </ul>
+      </p>
+    </main>
+    <script src="js/script.js"></script>
   </body>
 </html>

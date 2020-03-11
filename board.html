@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial scale=1">
@@ -9,40 +9,48 @@
   <body>
     <header>
       <h1>OMTech</h1>
+      <div id="menu-button">
+        <svg viewBox="0 0 100 80" width="30" height="30">
+          <rect fill="white" width="100" height="15"></rect>
+          <rect fill="white" y="30" width="100" height="15"></rect>
+          <rect fill="white" y="60" width="100" height="15"></rect>
+        </svg>
+      </div>
+      <nav id="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li class="active-page"><a href="board.html">Board</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav> 
     </header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</li>
-        <li><a href="about-us.html">About Us</a></li>
-        <li class="active-page"><a href="board.html">Board</a></li>
-        <li><a href="history.html">History</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="contact-us.html">Contact Us</a></li>
-      </ul>
-    </nav> 
-    <div class="flex">
-      <div class="board">
-        <img class="pic" src="images/bob.png" alt="President">
-        <p class="title">President: Elena Olsen</p>
+    <main>
+      <div class="flex">
+        <div class="board">
+          <img class="pic" src="images/Elena.jpg" alt="Elena Olsen">
+          <p class="title">President: Elena Olsen</p>
+        </div>
+        <div class="board">
+          <p class="title">Vice President: Sarah Hipke</p>
+          <img class="pic" src="images/Sarah.jpg" alt="Sarah Hipke">        
+        </div>
+        <div class="board">
+          <img class="pic" src="images/Nicole.jpg" alt="Nicole McMahan">
+          <p class="title">Secretary: Nicole McMahan</p>
+        </div>
+        <div class="board">
+          <p class="title">Treasurer: Megan Heindl</p>
+          <img class="pic" src="images/Megan.jpeg" alt="Megan Heindl">      
+        </div>
+        <div class="board">
+          <img class="pic" src="images/Katie.jpg" alt="Katie Henschell">
+          <p class="title">Web Master: Katie Henschell</p>
+        </div>
       </div>
-      <div class="board">
-        <p class="title">Vice President: Sarah Hipke</p>
-        <img class="pic" src="images/bob.png" alt="Vice President">
-        
-      </div>
-      <div class="board">
-        <img class="pic" src="images/bob.png" alt="Secretary">
-        <p class="title">Secretary: Nicole McMahan</p>
-      </div>
-      <div class="board">
-        <p class="title">Treasurer: Megan Heindl</p>
-        <img class="pic" src="images/bob.png" alt="Treasurer">
-        
-      </div>
-      <div class="board">
-        <img class="pic" src="images/bob.png" alt="Web Master">
-        <p class="title">Web Master: Katie Henschell</p>
-      </div>
-    </div>
+    </main>
+    <script src="js/script.js"></script>
   </body>
 </html>

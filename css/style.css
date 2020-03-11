@@ -60,9 +60,8 @@ a:hover, a.active {
 }
 
 .pic {
-  width: 50%;
+  width: 40%;
   margin-right: 10px;
-  flex-grow: 1;
 }
 
 .board {
@@ -71,6 +70,7 @@ a:hover, a.active {
   align-items: center;
   margin-bottom: 10px;
   font-size: large;
+  justify-content: center;
 }
 
 .title {
@@ -81,4 +81,66 @@ a:hover, a.active {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#menu-button {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #menu-button {
+    display: block;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  header {
+    background-color: mediumpurple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 70px;
+    box-shadow: 0 -15px 10px 20px gray;
+  }
+
+  h1 {
+    border: none;
+  }
+
+  main {
+    padding-top: 70px;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+  }
+
+  nav.open {
+    display: block;
+  }
+
+  nav > ul {
+    flex-direction: column;
+  }
+
+  nav > ul > li {
+    border-top: 1px solid white;
+  }
+
+  nav > ul > li:active, .active {
+    background-color: rebeccapurple;
+  }
+  
 }
