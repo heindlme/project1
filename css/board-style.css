@@ -37,3 +37,19 @@
   display: flex;
   align-items: center;
 }
+
+@media (max-width: 650px) {
+  .pic {
+    width: 50%;
+  }
+
+  .flex {
+    font-size: 16pt;
+  }
+}
+
+@media (max-width: 550px) {
+  .flex {
+    font-size: 12pt;
+  }
+}
