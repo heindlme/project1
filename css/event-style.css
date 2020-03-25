@@ -30,21 +30,11 @@ main > ul {
 
 main > ul > li {
   margin-top: 5%;
-  /* max-height: 500px; */
 }
 
 .pic {
-  /* display: flex; */
   height: 500px;
 }
-
-/* .right {
-  margin-right: 5px;
-}
-
-.left {
-  margin-left: 5px;
-} */
 
 #feb12 {
   margin: 0;
@@ -70,12 +60,6 @@ main > ul > li {
 #may13 {
   background-color: firebrick;
 }
-
-/* @media (max-width: 1050px) {
-  main > ul > li {
-    max-height: 300px;
-  }
-} */
 
 @media (max-width: 900px) {
   .date {
