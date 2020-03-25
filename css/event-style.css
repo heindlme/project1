@@ -4,6 +4,11 @@ h3 {
  justify-content: center;
 }
 
+p {
+  display: flex;
+  justify-content: center;
+}
+
 main > ul {
   margin: 10px;
   list-style: none;
@@ -14,7 +19,7 @@ main > ul {
   padding-left: 0;
 }
 
-main > ul > li {
+.date {
   padding-top: 30px;
   padding-bottom: 30px;
   width: 30%;
@@ -23,7 +28,26 @@ main > ul > li {
   align-items: center;
 }
 
+main > ul > li {
+  margin-top: 5%;
+  /* max-height: 500px; */
+}
+
+.pic {
+  /* display: flex; */
+  height: 500px;
+}
+
+/* .right {
+  margin-right: 5px;
+}
+
+.left {
+  margin-left: 5px;
+} */
+
 #feb12 {
+  margin: 0;
   background-color: lightblue;
 }
 
@@ -47,20 +71,40 @@ main > ul > li {
   background-color: firebrick;
 }
 
-@media (max-width: 900px) {
+/* @media (max-width: 1050px) {
   main > ul > li {
+    max-height: 300px;
+  }
+} */
+
+@media (max-width: 900px) {
+  .date {
     width: 40%;
+  }
+
+  .pic {
+    height: 400px;
   }
 }
 
 @media (max-width: 650px) {
-  main > ul > li {
+  .date {
     width: 70%;
+  }
+
+  .pic {
+    height: 300px;
+  }
+}
+
+@media (max-width: 550px) {
+  .pic {
+    height: 200px;
   }
 }
 
 @media (max-width: 450px) {
-  main > ul > li {
+  .date {
     width: 100%;
   }
 }
