@@ -4,11 +4,10 @@ h3 {
  justify-content: center;
 }
 
-p {
+#location {
   display: flex;
   justify-content: center;
 }
-
 
 main > ul {
   margin: 10px;
