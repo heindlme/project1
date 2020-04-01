@@ -1,3 +1,7 @@
+main {
+  margin-left: 0;
+}
+
 .flex {
   display: flex;
   flex-direction: column;
@@ -8,23 +12,6 @@
   width: 40%;
   margin: 10px;
 }
-/* 
-.title {
-  margin-right: 10px;
-} */
-
-/* .board {
-  margin-left: 10px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  font-size: large;
-  justify-content: flex-end;
-} */
-
-/* .title {
-  flex-grow: 1;
-} */
 
 .left {
   justify-content: flex-start;

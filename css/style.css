@@ -48,12 +48,12 @@ nav {
   margin: 0;
 }
 
-a:link, a:visited {
+header a:link, header a:visited {
   color: white;
   text-decoration: none;
 }
 
-a:hover, a.active {
+header a:hover, header a.active {
   text-decoration: underline;
   color: black;
 }
@@ -70,6 +70,10 @@ a:hover, a.active {
 
 #menu-button {
   display: none;
+}
+
+main {
+  margin-left: 10px;
 }
 
 @media (max-width: 600px) {

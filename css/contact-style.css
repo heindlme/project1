@@ -1,16 +1,9 @@
-h3 {
-  margin-left: 10px;
+#text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-input {
-  margin-left: 10px;
-}
-
-h4 {
-  margin-left: 10px;
-}
-
-#fb {
-  color: blue;
-
+textarea {
+  margin: 0 10px;
 }
