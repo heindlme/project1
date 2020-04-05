@@ -46,19 +46,19 @@ main > ul > li {
 }
 
 #mar11 {
-  background-color: green;
+  background-color: mediumseagreen;
 }
 
 #apr1 {
-  background-color: orange;
+  background-color: darkkhaki;
 }
 
 #apr29 {
-  background-color: limegreen;
+  background-color: mediumaquamarine;
 }
 
 #may13 {
-  background-color: firebrick;
+  background-color: tomato;
 }
 
 @media (max-width: 900px) {
