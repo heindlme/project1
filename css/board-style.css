@@ -2,6 +2,11 @@ main {
   margin: 0;
 }
 
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
 .flex {
   display: flex;
   flex-direction: column;
@@ -10,7 +15,7 @@ main {
 
 .pic {
   width: 40%;
-  margin: 10px;
+  margin: 0 10px 10px;
 }
 
 .left {

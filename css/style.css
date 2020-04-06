@@ -8,7 +8,6 @@ html {
 }
 
 h1 {
-  font-family: 'Trebuchet MS', sans-serif;
   background-color: mediumpurple;
   color: white;
   padding: 15px;
@@ -16,12 +15,12 @@ h1 {
   border-bottom: white 2px solid;
 }
 
-h3 {
+h1, h3 {
   font-family: 'Trebuchet MS', sans-serif;
 }
 
-p {
-  font-family: 'Georgia', serif;
+p, li, label {
+  font-family: 'Garamond', 'Georgia', serif;
 }
 
 nav > ul {
@@ -30,7 +29,6 @@ nav > ul {
   justify-content: flex-end;
   background-color: mediumpurple;
   margin: 0;
-  margin-bottom: 10px;
 }
 
 nav li {
