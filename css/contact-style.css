@@ -1,9 +1,39 @@
-#text {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
 }
 
-textarea {
-  margin: 0 10px;
+html, body, main {
+  height: 100%;
+}
+
+main {
+  height: 75%;
+  margin-right: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+textarea, input {
+  max-width: 98%;
+}
+
+.image {
+  height: 100%;
+  margin-right: 1em;
+}
+
+#contact {
+  height: 100%;
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 860px) {
+  .image {
+    display: none;
+  }
 }

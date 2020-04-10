@@ -8,13 +8,23 @@
   width: 20%;
 }
 
+body, html {
+  height: 100%;
+}
+
+main {
+  height: 75%;
+}
+
 #pic {
-  width: 40%;
+  height: 100%;
   margin-top: 1em;
+  margin-bottom: 10px;
   padding-left: 10px;
 }
 
 #outer {
+  height: 50%;
   display: flex;
   border-top: 1px solid black;
 }
@@ -55,6 +65,7 @@
 
   #pic {
     width: 60%;
+    height: auto;
     margin-top: 0;
     padding: 0;
   }
