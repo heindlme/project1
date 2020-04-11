@@ -1,21 +1,23 @@
 const message = document.getElementById('message');
-const email = document.getElementById('email');
+const name = document.getElementById('name');
 const submitButton = document.getElementById('submit-button');
+const myForm = document.getElementById("my-form");
 let messageFlag = false;
-let emailFlag = false;
+let nameFlag = false;
 
 message.addEventListener('input', () => {
   messageFlag = (message.value.length > 0) ? true : false;
-  submitButton.disabled = (messageFlag || emailFlag) ? false : true;
+  submitButton.disabled = (messageFlag || nameFlag) ? false : true;
 });
 
-email.addEventListener('input', () => {
-  emailFlag = (email.value.length > 0) ? true : false;
-  submitButton.disabled = (messageFlag|| emailFlag) ? false : true;
+name.addEventListener('input', () => {
+  nameFlag = (name.value.length > 0) ? true : false;
+  submitButton.disabled = (messageFlag|| nameFlag) ? false : true;
 });
 
 submitButton.addEventListener('click', () => {
-  message.value = "";
-  email.value = "";
   submitButton.disabled = true;
+  myForm.submit();
+  message.value = "";
+  name.value = "";
 });
