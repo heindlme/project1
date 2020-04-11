@@ -51,7 +51,7 @@ main {
 @media (max-width: 600px) {
   #list {
     flex-direction: column;
-    padding-inline-start: 20px;
+    padding-left: 20px;
   }
 
   .purpose {
