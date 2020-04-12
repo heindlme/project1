@@ -4,21 +4,34 @@ body, html {
 }
 
 main {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   height: 80%;
   margin-right: 10px;
 }
 
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
 #pictures {
   margin: 10px 0;
-  height: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
 }
 
 .slides {
-  max-width: 100%;
+  
+ 
+  max-width: 90%;
   max-height: 100%;
   width: auto;
   height: auto;
