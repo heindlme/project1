@@ -1,3 +1,8 @@
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -5,11 +10,6 @@ main {
   align-items: center;
   height: 80%;
   margin-right: 10px;
-}
-
-body, html {
-  height: 100%;
-  width: 100%;
 }
 
 #pictures {

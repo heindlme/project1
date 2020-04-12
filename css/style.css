@@ -1,9 +1,9 @@
-body {
-  background-color: lavender;
+html {
   margin: 0;
 }
 
-html {
+body {
+  background-color: lavender;
   margin: 0;
 }
 
@@ -23,6 +23,10 @@ p, li, label, main {
   font-family: 'Georgia', serif;
 }
 
+nav {
+  margin: 0;
+}
+
 nav > ul {
   display: flex;
   list-style-type: none;
@@ -31,7 +35,7 @@ nav > ul {
   margin: 0;
 }
 
-nav li {
+nav > ul > li {
   padding: 15px;
   justify-content: center;
   align-items: center;
@@ -40,10 +44,6 @@ nav li {
   border-left: white 1px solid;
   margin: 0;
   white-space: nowrap;
-}
-
-nav {
-  margin: 0;
 }
 
 header a:link, header a:visited {
@@ -58,12 +58,6 @@ header a:hover, header a.active {
 
 .active-page {
   background-color: indigo;
-}
-
-.main_img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #menu-button {
@@ -90,7 +84,6 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* padding: 10px; */
     position: fixed;
     left: 0;
     right: 0;
@@ -101,10 +94,6 @@ main {
 
   h1 {
     border: none;
-  }
-
-  main {
-    padding-top: 70px;
   }
 
   nav {
@@ -131,6 +120,10 @@ main {
 
   nav > ul > li:active, .active {
     background-color: indigo;
+  }
+
+  main {
+    padding-top: 70px;
   }
   
 }

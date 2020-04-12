@@ -1,3 +1,11 @@
+body, html {
+  height: 100%;
+}
+
+main {
+  height: 75%;
+}
+
 #list {
   display: flex;
   justify-content: space-around;
@@ -8,14 +16,6 @@
   width: 20%;
 }
 
-body, html {
-  height: 100%;
-}
-
-main {
-  height: 75%;
-}
-
 #pic {
   height: 100%;
   margin-top: 1em;
@@ -23,13 +23,13 @@ main {
   padding-left: 10px;
 }
 
-#outer {
+#lower {
   height: 50%;
   display: flex;
   border-top: 1px solid black;
 }
 
-#inner {
+#lower-left {
   flex-grow: 1;
 }
 
@@ -59,18 +59,15 @@ main {
     margin: 0;
   }
 
-  #outer {
+  #lower {
     flex-wrap: wrap;
+    padding: 0;
   }
 
   #pic {
     width: 60%;
     height: auto;
     margin-top: 0;
-    padding: 0;
-  }
-
-  #outer {
     padding: 0;
   }
 }

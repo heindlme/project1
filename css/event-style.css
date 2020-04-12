@@ -32,7 +32,7 @@ main > ul > li {
   margin-top: 5%;
 }
 
-.pic {
+main > ul > li > img {
   height: 500px;
 }
 
@@ -66,7 +66,7 @@ main > ul > li {
     width: 40%;
   }
 
-  .pic {
+  main > ul > li > img {
     height: 400px;
   }
 }
@@ -76,13 +76,13 @@ main > ul > li {
     width: 70%;
   }
 
-  .pic {
+  main > ul > li > img {
     height: 300px;
   }
 }
 
 @media (max-width: 550px) {
-  .pic {
+  main > ul > li > img {
     height: 200px;
   }
 }
